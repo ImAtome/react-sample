@@ -1,0 +1,264 @@
+.left-container {
+  width:280px;
+  height:calc(100% - 60px);
+  float:left;
+  position:relative;
+  z-index: 0;
+  overflow-y: auto;
+  color:#63615B;
+}
+
+.left-container::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.left-container-divider {
+  width:100%;
+  height:15px;
+  position:relative;
+  float:left;
+  background-color:white;
+}
+
+.profil-menu {
+  width:100%;
+  height:auto;
+  position:relative;
+  float:left;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.profil-menu-sep {
+  width:100%;
+  height:10px;
+  position:relative;
+  float: left;
+  background-color: white;
+}
+
+.profil-picture {
+  width:100%;
+  height:125px;
+  position:relative;
+  float:left;
+  background-color: white;
+}
+
+.profil-picture-content {
+  width:125px;
+  height:125px;
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+  left:0;
+  right:0;
+  box-sizing: border-box;
+  border-radius: 50%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  border:3px solid #e9c581;
+}
+
+.profil-info {
+  width:100%;
+  height:auto;
+  min-height: 300px;
+  position:relative;
+  float: left;
+}
+
+.profil-info-personnal {
+  text-align: center;
+  font-size: 18px;
+  float:left;
+  width:100%;
+  height: 40px;
+  position:relative;
+  font-weight: bold;
+  background-color: white;
+}
+
+.profil-info-personnal i {
+  font-size: 10px;
+}
+
+.profil-info-personnal-age {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.profil-info-description {
+  width:100%;
+  height:auto;
+  float:left;
+  padding-left:10px;
+  padding-right:10px;
+  box-sizing: border-box;
+  position:relative;
+  font-size: 15px;
+  text-align: center;
+  font-weight: lighter;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.profil-info-description i {
+  color:#f9e1b3;
+  font-size: 16px;
+}
+
+.icon-contact {
+  font-size: 20px !important;
+}
+
+.icon-contact:hover {
+  color: #e9c581;
+}
+
+.profil-follow-button {
+  width:100%;
+  height:50px;
+  position:relative;
+  float: left;
+}
+
+.profil-follow-button-content {
+  width: 60%;
+  height:30px;
+  line-height: 30px;
+  position:relative;
+  margin: 0 auto;
+  border-radius: 2px;
+  border: 2px solid #f9e1b3;
+  vertical-align: middle;
+  font-weight: bold;
+  color:#f9e1b3;
+}
+
+.profil-follow-button-content:hover {
+  background-color: #f9e1b3;
+  color:white;
+  cursor: pointer;
+}
+
+.profil-info-stats {
+  width:100%;
+  height:60px;
+  position:relative;
+  float:left;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  margin-top:10px;
+  margin-bottom:10px;
+  border-radius: 2px;
+}
+
+.profil-info-stats-content {
+  width:33.333%;
+  height:100%;
+  position:relative;
+  float:left;
+  /*color: #e9c581;*/
+  color:#63615B;
+  text-align: center;
+  padding-top:5px;
+  box-sizing: border-box;
+  font-weight: lighter;
+  border-top: 5px solid white;
+}
+
+.profil-info-stats-content:hover {
+  cursor: pointer;
+}
+
+.profil-info-stats-content:hover strong{
+  color:#e9c581;
+}
+
+.profil-info-stats-content span {
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:10px;
+  color:#63615B;
+}
+
+.profil-historique {
+  width: 100%;
+  height: auto;
+  position:relative;
+  float:left;
+  box-sizing: border-box;
+  color: #e9c581;
+  background-color: white;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius: 2px;
+}
+
+.historique-title {
+  width:100%;
+  height:50px;
+  line-height: 50px;
+  position:relative;
+  float: left;
+  color: #63615B;
+  padding-left: 10px;
+  font-weight: lighter;
+  box-sizing: border-box;
+}
+
+.historique-list span {
+  vertical-align: middle;
+}
+
+.historique-list {
+  width: 100%;
+  height: auto;
+  position:relative;
+  float:left;
+  box-sizing: border-box;
+  font-weight: lighter;
+  overflow-y: auto;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+.historique {
+  width:100%;
+  height:auto;
+  position:relative;
+  float:left;
+  font-size: 14px;
+  padding-top:7px;
+  padding-bottom:7px;
+  padding-left:10px;
+  padding-right:10px;
+  box-sizing: border-box;
+  color:#63615B;
+}
+
+.historique:hover {
+  cursor: pointer;
+}
+
+.historique:hover > .historique-content-type {
+  color: #e9c581;
+}
+
+.historique-content-type {
+  color: #63615B;
+  font-weight: normal;
+}
+
+.historique-time {
+  color:#dad5cd;
+  font-size: 12px;
+}
